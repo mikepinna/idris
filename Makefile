@@ -1,0 +1,3 @@
+%: %.idr
+	idris -o $@ $<
+	time ./$@
